@@ -26,7 +26,7 @@ export default class FlowerBox extends Component {
 
       <View style={{width: '47.5%', height: 100}}>
         <TouchableHighlight
-        underlayColor={ 'transparent' }
+        underlayColor={ 'rgba(255,255,255,1)' }
         style={styles.touchablehighlight, {backgroundColor:'rgba(255,255,255,1)',borderRadius:10}}
         onPress={() => {}}>
           <View style={styles.container}>

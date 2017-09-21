@@ -30,7 +30,7 @@ export default class QuarterBox extends Component {
 
       <View style={{width: '100%', height: 100}}>
         <TouchableHighlight
-        underlayColor={ 'transparent' }
+        underlayColor={  'rgba(255,255,255,1)' }
         style={styles.touchablehighlight, {backgroundColor:buttonEnabled,borderRadius:10}}
         onPress={() => {}}>
           <View style={styles.container}>

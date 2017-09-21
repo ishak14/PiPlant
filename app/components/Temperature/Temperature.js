@@ -26,7 +26,7 @@ export default class Temperature extends Component {
       top:80,bottom:100,
       fontFamily:'System',
       fontWeight:'100'}}>
-      23,7°</Text>
+      {this.props.temp}</Text>
     );
   }
 }
