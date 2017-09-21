@@ -11,7 +11,7 @@ import {
   Text,
   View,
   Image,
-
+  Alert,
 } from 'react-native';
 import Switch from 'react-native-switch-pro';
 
@@ -49,6 +49,7 @@ export default class QuarterLabel extends Component {
       </View>
       <View style={{flex:0.5,backgroundColor:'transparent',marginBottom:10}}>
       <Switch style={{transform: [{ scaleX: .8 }, { scaleY: .8 }]}}
+       onSyncPress={this.props.switchPress}
       backgroundInactive={'darkgrey'}
       onTintColor={'#2ecc71'}
       tintColor={'grey'}/>

@@ -19,6 +19,7 @@ import styles from './app/style2';
 import Label from './app/components/Label/Label';
 import QuarterBox from './app/components/Box/QuarterBox';
 import HalfBox from './app/components/Box/HalfBox';
+import FlowerBox from './app/components/Box/FlowerBox';
 import Box from './app/components/Box/Box';
 import Address from './app/components/Address/Address';
 import Temperature from './app/components/Temperature/Temperature';
@@ -52,11 +53,9 @@ export default class PiPlant extends Component {
       </View>
 
       <View style={{marginLeft:10}}>
+
       <View style={{flex: 2, flexDirection: 'row'}}>
-
-
-
-      <HalfBox
+      <FlowerBox
       imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/014-nature-4.png'
       name="Oregano"
       leftImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/021-drop'
@@ -70,14 +69,18 @@ export default class PiPlant extends Component {
 
 
       <View style={{height:'100%',width:'100%',marginLeft:10}}>
-      <HalfBox
+      <FlowerBox
       style={{}}
       imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/016-nature-1.png'
+      leftImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/021-drop'
+      leftText='34%'
+      rightImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/002-summer'
+      rightText='7h'
       name="Basil"/>
       </View>
 
-      </View>
 
+      </View>
       </View>
       <View style={{flexDirection:'row',width: '100%', height: '100%',marginTop:10,backgroundColor:'transparent'}}>
 
@@ -85,12 +88,12 @@ export default class PiPlant extends Component {
 
       <View style={{flex:0.5,marginLeft:10,marginRight:5}}>
       <QuarterBox
-      imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/017-technology-2.png'
+      imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/007-technology-5.png'
       name='Living Room'/>
       </View>
       <View style={{flex:0.5,marginLeft:5,marginRight:5}}>
       <QuarterBox
-      imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/011-technology-3.png'
+      imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/007-technology-5.png'
       name='Workstation'/>
       </View>
       <View style={{flex:0.5,marginLeft:5,marginRight:5}}>

@@ -28,13 +28,14 @@ export default class HalfBox extends Component {
 
     return (
 
-      <View style={{width: '47%', height: 100}}>
+      <View style={{width: '47.5%', height: 100}}>
         <TouchableHighlight
         underlayColor={ 'transparent' }
         style={styles.touchablehighlight, {backgroundColor:buttonEnabled,borderRadius:10}}
         onPress={() => this.setState({buttonEnabled: !this.state.buttonEnabled})}>
           <View style={styles.container}>
         <Label
+    
         imageSource={this.props.imageSource}
         name={this.props.name}
         leftImage={this.props.leftImage}
