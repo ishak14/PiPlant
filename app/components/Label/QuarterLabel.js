@@ -12,6 +12,7 @@ import {
   View,
   Image,
   Alert,
+  TextInput,
 } from 'react-native';
 import Switch from 'react-native-switch-pro';
 
@@ -38,10 +39,10 @@ export default class QuarterLabel extends Component {
           </View>
           <View style={{flex: 3, flexDirection: 'column',alignItems:'center',backgroundColor:'transparent'}}>
 
-            <View style={{flex:1.2,width: 40, height: 55, backgroundColor:'transparent'}}>
+            <View style={{flex:1.2,paddingTop:5, backgroundColor:'transparent'}}>
               <Image
                 source={{uri: this.props.imageSource }}
-                style={{height:100,width:100}}/>
+                style={{width: 35, height: 35}}/>
               </View>
               <View style={{flex:0.5,width: 400, height: '100%',marginTop:5}}>
                 <Text style={styles.quarterTitle}>

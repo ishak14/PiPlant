@@ -153,7 +153,7 @@ addressName={this.state.address}/>
       <View style={{height:'100%',width:'100%',marginLeft:10}}>
       <FlowerBox
       style={{}}
-      imageSource='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/016-nature-1.png'
+      imageSource='./assets/new/png/016-nature-1.png'
       leftImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/021-drop'
       leftText={this.state.plantTwoMoisture}
       rightImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/002-summer'
@@ -206,7 +206,7 @@ addressName={this.state.address}/>
       backgroundColor:'transparent',
       color:'rgba(255,255,255,0.9)',
       bottom:5,
-      right:5,
+      right:10,
       fontFamily:'System',
       fontWeight:'400'}}>
       © Andy Ishak
