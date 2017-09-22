@@ -14,7 +14,7 @@ import {
 
 
 
-export default class Toolbar extends Component {
+export default class Address extends Component {
 
 
   render() {
@@ -35,4 +35,4 @@ export default class Toolbar extends Component {
 
 
 
-AppRegistry.registerComponent('Toolbar', () => Toolbar);
+AppRegistry.registerComponent('Address', () => Address);

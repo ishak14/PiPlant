@@ -17,6 +17,7 @@ import {
 } from 'react-native';
 
 
+
 import styles from './app/style2';
 import Label from './app/components/Label/Label';
 import QuarterBox from './app/components/Box/QuarterBox';
@@ -28,32 +29,7 @@ import Temperature from './app/components/Temperature/Temperature';
 
 
 export default class PiPlant extends Component {
-  constructor(){
-    super();
-    this.state = {
-      itemDataSource: ds
-    }
-  }
 
-  componentWillMount(){
-    this.getItems();
-  }
-  componentDidMount(){
-    this.getItems();
-  }
-
-  getItems(){
-    let items = [{title:'Item one'},{title:'Item Two'}];
-  }
-
-  this.setState({
-    itemDataSource: this.state.itemDataSource.cloneWithRows(items);
-  });
-
-    state = {
-
-
-    }
 
   render() {
 
@@ -68,7 +44,8 @@ export default class PiPlant extends Component {
 
 <Address/>
 <Temperature
-  temp={item}/>
+  temp={'23,7'}/>
+
 
       <ScrollView style={{zIndex:100}}>
       <View style={{flex: 1, flexDirection: 'column'}}>
