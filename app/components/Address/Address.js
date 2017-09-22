@@ -27,7 +27,7 @@ export default class Address extends Component {
       left:10,
       fontFamily:'System',
       fontWeight:'400'}}>
-      Fyrisgatan 12B
+      {this.props.addressName}
       </Text>
     );
   }

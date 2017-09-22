@@ -38,18 +38,14 @@
 		2DCD954D1E0B4F2C00145EB5 /* PiPlantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PiPlantTests.m */; };
 		41ABE8CB376542A18B5B7BBB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C67E6BBF0E048B8B9ABF6D0 /* MaterialIcons.ttf */; };
 		4F43F65051824B33846A99B9 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75592E918BDC4ABDBE2FE079 /* Ionicons.ttf */; };
-		4FC418172481C275A5C4ED32 /* libPods-PiPlant-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE92B5C0D836CB2B38EF9F5 /* libPods-PiPlant-tvOS.a */; };
 		513A34487445484BBE370CC6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DA93DD92243462E96D0F6A1 /* FontAwesome.ttf */; };
 		5164BD986FBB4C3A835A9E54 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE1A46FFDC40478C2C181A /* Roboto.ttf */; };
 		5AF3E122009346DA9C2FEEB1 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B276E415D2394661A6061230 /* Foundation.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		628B40D867BD4E81A1F18459 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8179F85853AF486FA02D7159 /* Zocial.ttf */; };
-		6CC7AC8F70A0DD87DE9FE253 /* libPods-PiPlantTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C42E5806F2AEC5D8178F22 /* libPods-PiPlantTests.a */; };
 		75FFE3E0992C493EB4393F9A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 702B87A2070846FC8653A19B /* EvilIcons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		8834A02D99C8437E30849A0C /* libPods-PiPlant-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C4E74E370A74EC1CAB869E /* libPods-PiPlant-tvOSTests.a */; };
 		8EC2127355734113AB63182D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98A6C23271D84A98A1680DBE /* Entypo.ttf */; };
-		9A1A40B8161434584E7266AF /* libPods-PiPlant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E59FFFF84F9A0BC0CEE276 /* libPods-PiPlant.a */; };
 		A748EFC2572F4B8C8ECE343C /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32A6121B847B4049A5F352C8 /* SimpleLineIcons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		EE892C8B66AA43818EF1FFD8 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99AB213919424194AF70D01E /* rubicon-icon-font.ttf */; };
@@ -309,18 +305,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PiPlant/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PiPlant/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PiPlant/main.m; sourceTree = "<group>"; };
-		142C031AC13017367B0AE660 /* Pods-PiPlant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlant.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlant/Pods-PiPlant.release.xcconfig"; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1C67E6BBF0E048B8B9ABF6D0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		2775450DAB74822FEF735E32 /* Pods-PiPlantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlantTests/Pods-PiPlantTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* PiPlant-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PiPlant-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* PiPlant-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PiPlant-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		324B5023CE6442E7A1F1CC2F /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		32A6121B847B4049A5F352C8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		3ADE1A46FFDC40478C2C181A /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
-		3F442B526070A56AE5747185 /* Pods-PiPlant-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlant-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlant-tvOSTests/Pods-PiPlant-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		4078C84CAC0D0C7874E2B2FA /* Pods-PiPlant-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlant-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlant-tvOS/Pods-PiPlant-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		43C4E74E370A74EC1CAB869E /* libPods-PiPlant-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiPlant-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA93DD92243462E96D0F6A1 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		702B87A2070846FC8653A19B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
@@ -330,17 +321,10 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		98A6C23271D84A98A1680DBE /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		99AB213919424194AF70D01E /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
-		9A20A7118E639DBD57A0CB1D /* Pods-PiPlant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlant/Pods-PiPlant.debug.xcconfig"; sourceTree = "<group>"; };
-		9DFAFF2660953E9BCE39B1FC /* Pods-PiPlantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlantTests/Pods-PiPlantTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9E3A89502961AEECF885FC4C /* Pods-PiPlant-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlant-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlant-tvOS/Pods-PiPlant-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B276E415D2394661A6061230 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		B3E766A3E01F4A9382B026DF /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		CF366BF82C00D52BCCF03D58 /* Pods-PiPlant-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiPlant-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiPlant-tvOSTests/Pods-PiPlant-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D3C42E5806F2AEC5D8178F22 /* libPods-PiPlantTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiPlantTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5E59FFFF84F9A0BC0CEE276 /* libPods-PiPlant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiPlant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F673379F1F75691800C08D49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "PiPlant/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FAE92B5C0D836CB2B38EF9F5 /* libPods-PiPlant-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiPlant-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				6CC7AC8F70A0DD87DE9FE253 /* libPods-PiPlantTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +353,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				9A1A40B8161434584E7266AF /* libPods-PiPlant.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +368,6 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				4FC418172481C275A5C4ED32 /* libPods-PiPlant-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +375,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8834A02D99C8437E30849A0C /* libPods-PiPlant-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,17 +491,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20676FDC72D85A1C2D3C9C1F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D5E59FFFF84F9A0BC0CEE276 /* libPods-PiPlant.a */,
-				FAE92B5C0D836CB2B38EF9F5 /* libPods-PiPlant-tvOS.a */,
-				43C4E74E370A74EC1CAB869E /* libPods-PiPlant-tvOSTests.a */,
-				D3C42E5806F2AEC5D8178F22 /* libPods-PiPlantTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3BE6EA0E2DDF449BA1681E73 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,8 +565,6 @@
 				00E356EF1AD99517003FC87E /* PiPlantTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				3BE6EA0E2DDF449BA1681E73 /* Resources */,
-				CDA882CB61578437357F81CC /* Pods */,
-				20676FDC72D85A1C2D3C9C1F /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -624,21 +591,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDA882CB61578437357F81CC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9A20A7118E639DBD57A0CB1D /* Pods-PiPlant.debug.xcconfig */,
-				142C031AC13017367B0AE660 /* Pods-PiPlant.release.xcconfig */,
-				9E3A89502961AEECF885FC4C /* Pods-PiPlant-tvOS.debug.xcconfig */,
-				4078C84CAC0D0C7874E2B2FA /* Pods-PiPlant-tvOS.release.xcconfig */,
-				CF366BF82C00D52BCCF03D58 /* Pods-PiPlant-tvOSTests.debug.xcconfig */,
-				3F442B526070A56AE5747185 /* Pods-PiPlant-tvOSTests.release.xcconfig */,
-				9DFAFF2660953E9BCE39B1FC /* Pods-PiPlantTests.debug.xcconfig */,
-				2775450DAB74822FEF735E32 /* Pods-PiPlantTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -646,12 +598,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PiPlantTests" */;
 			buildPhases = (
-				7CF97F542DA261D94732ACBE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				9898646C2184EBFC7B98DE4D /* [CP] Embed Pods Frameworks */,
-				195ACD781B752E9AB993B493 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -667,13 +616,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PiPlant" */;
 			buildPhases = (
-				A91835D33031AE3BCE4DAFF4 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A548F97D7F5F6932BD0849A1 /* [CP] Embed Pods Frameworks */,
-				1E36D3B9725D5C0F8CB606FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -688,13 +634,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PiPlant-tvOS" */;
 			buildPhases = (
-				65F6C36C47F7ADC65BB5EC3A /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
-				F7F703B02812A21F66FF7503 /* [CP] Embed Pods Frameworks */,
-				107C2C386CDD4BD2B577D57B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -709,12 +652,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PiPlant-tvOSTests" */;
 			buildPhases = (
-				2F499ED187E46C5102FF1DCE /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
-				5BC83688557BEE7C3499977B /* [CP] Embed Pods Frameworks */,
-				C9EC386FC589B65FE0DF7E79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1106,51 +1046,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		107C2C386CDD4BD2B577D57B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlant-tvOS/Pods-PiPlant-tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		195ACD781B752E9AB993B493 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlantTests/Pods-PiPlantTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E36D3B9725D5C0F8CB606FD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlant/Pods-PiPlant-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1164,153 +1059,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		2F499ED187E46C5102FF1DCE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PiPlant-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5BC83688557BEE7C3499977B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlant-tvOSTests/Pods-PiPlant-tvOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		65F6C36C47F7ADC65BB5EC3A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PiPlant-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7CF97F542DA261D94732ACBE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PiPlantTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9898646C2184EBFC7B98DE4D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlantTests/Pods-PiPlantTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A548F97D7F5F6932BD0849A1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlant/Pods-PiPlant-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A91835D33031AE3BCE4DAFF4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PiPlant-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9EC386FC589B65FE0DF7E79 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlant-tvOSTests/Pods-PiPlant-tvOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7F703B02812A21F66FF7503 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiPlant-tvOS/Pods-PiPlant-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1379,7 +1127,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DFAFF2660953E9BCE39B1FC /* Pods-PiPlantTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1401,7 +1148,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2775450DAB74822FEF735E32 /* Pods-PiPlantTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1420,7 +1166,6 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A20A7118E639DBD57A0CB1D /* Pods-PiPlant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1440,7 +1185,6 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 142C031AC13017367B0AE660 /* Pods-PiPlant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1459,7 +1203,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E3A89502961AEECF885FC4C /* Pods-PiPlant-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1487,7 +1230,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4078C84CAC0D0C7874E2B2FA /* Pods-PiPlant-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1515,7 +1257,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF366BF82C00D52BCCF03D58 /* Pods-PiPlant-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1537,7 +1278,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F442B526070A56AE5747185 /* Pods-PiPlant-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
