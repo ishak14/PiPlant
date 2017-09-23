@@ -82,20 +82,27 @@ getItems(homeRef){
     snap.forEach((child) => {
       items.push({
         title: child.val().title,
-        _key: child.key
+        _key: child.key,
+        street: child.val().street,
+        city: child.val().city,
+        postcode: child.val().postcode,
+        moisture: child.val().moisture,
+        sun: child.val().sun,
+
+
       });
     });
 
       this.setState({
-        address: items[0].title,
+        address: items[0].street,
         appliance: items[1].title,
         lamp1: items[2].title,
         lamp2: items[3].title,
-        plantOneMoisture: items[4].title,
-        plantOneSun: items[5].title,
-        plantTwoMoisture: items[6].title,
-        plantTwoSun: items[7].title,
-        temperature: items[8].title,
+        plantOneMoisture: items[4].moisture,
+        plantOneSun: items[4].sun,
+        plantTwoMoisture: items[5].moisture,
+        plantTwoSun: items[5].sun,
+        temperature: items[6].title,
 
       });
 })
@@ -153,7 +160,7 @@ addressName={this.state.address}/>
       <View style={{height:'100%',width:'100%',marginLeft:10}}>
       <FlowerBox
       style={{}}
-      imageSource='./assets/new/png/016-nature-1.png'
+      imageSource='/Users/ishak/Projects/react-native/PiPlant/assets/new/png/016-nature-1.png'
       leftImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/021-drop'
       leftText={this.state.plantTwoMoisture}
       rightImage='/Users/ishak/Projects/react-native/PiPlant/app/assets/new/png/002-summer'

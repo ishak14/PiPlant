@@ -38,7 +38,7 @@ export default class Label extends Component {
 
       <View style={{width: 50, height: 55}}>
       <Image
-        source={{uri: this.props.imageSource }}
+        source={{data: this.props.imageSource }}
         style={{width: 50, height: 55}}/>
         </View>
   <View style={{width: 400, height: '25%',marginTop:5,backgroundColor:'transparent'}}>

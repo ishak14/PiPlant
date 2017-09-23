@@ -49,6 +49,7 @@
 		A748EFC2572F4B8C8ECE343C /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32A6121B847B4049A5F352C8 /* SimpleLineIcons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		EE892C8B66AA43818EF1FFD8 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99AB213919424194AF70D01E /* rubicon-icon-font.ttf */; };
+		F6254A7C1F75A9DB00921286 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6254A7B1F75A9DB00921286 /* Images-2.xcassets */; };
 		F67337BF1F75691800C08D49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F673379F1F75691800C08D49 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -324,6 +325,7 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B276E415D2394661A6061230 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		B3E766A3E01F4A9382B026DF /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		F6254A7B1F75A9DB00921286 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "PiPlant/Images-2.xcassets"; sourceTree = "<group>"; };
 		F673379F1F75691800C08D49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "PiPlant/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -468,6 +470,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				F6254A7B1F75A9DB00921286 /* Images-2.xcassets */,
 			);
 			name = PiPlant;
 			sourceTree = "<group>";
@@ -998,6 +1001,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F6254A7C1F75A9DB00921286 /* Images-2.xcassets in Resources */,
 				F67337BF1F75691800C08D49 /* GoogleService-Info.plist in Resources */,
 				8EC2127355734113AB63182D /* Entypo.ttf in Resources */,
 				75FFE3E0992C493EB4393F9A /* EvilIcons.ttf in Resources */,
@@ -1179,6 +1183,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = PiPlant;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1197,6 +1202,7 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = PiPlant;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
